@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631ACEF7285C6BCF0034CA6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631ACEF6285C6BCF0034CA6C /* AppDelegate.swift */; };
+		631ACEF9285C6BCF0034CA6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631ACEF8285C6BCF0034CA6C /* SceneDelegate.swift */; };
+		631ACEFB285C6BCF0034CA6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631ACEFA285C6BCF0034CA6C /* ViewController.swift */; };
+		631ACEFE285C6BCF0034CA6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631ACEFC285C6BCF0034CA6C /* Main.storyboard */; };
+		631ACF01285C6BCF0034CA6C /* arkBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 631ACEFF285C6BCF0034CA6C /* arkBook.xcdatamodeld */; };
+		631ACF03285C6BD20034CA6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631ACF02285C6BD20034CA6C /* Assets.xcassets */; };
+		631ACF06285C6BD20034CA6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631ACF04285C6BD20034CA6C /* LaunchScreen.storyboard */; };
+		631ACF11285C6BD30034CA6C /* arkBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631ACF10285C6BD30034CA6C /* arkBookTests.swift */; };
+		631ACF1B285C6BD30034CA6C /* arkBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631ACF1A285C6BD30034CA6C /* arkBookUITests.swift */; };
+		631ACF1D285C6BD30034CA6C /* arkBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631ACF1C285C6BD30034CA6C /* arkBookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		631ACF0D285C6BD30034CA6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631ACEEB285C6BCE0034CA6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631ACEF2285C6BCF0034CA6C;
+			remoteInfo = arkBook;
+		};
+		631ACF17285C6BD30034CA6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631ACEEB285C6BCE0034CA6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631ACEF2285C6BCF0034CA6C;
+			remoteInfo = arkBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		631ACEF3285C6BCF0034CA6C /* arkBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arkBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631ACEF6285C6BCF0034CA6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		631ACEF8285C6BCF0034CA6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		631ACEFA285C6BCF0034CA6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		631ACEFD285C6BCF0034CA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		631ACF00285C6BCF0034CA6C /* arkBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = arkBook.xcdatamodel; sourceTree = "<group>"; };
+		631ACF02285C6BD20034CA6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631ACF05285C6BD20034CA6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		631ACF07285C6BD20034CA6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631ACF0C285C6BD30034CA6C /* arkBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arkBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631ACF10285C6BD30034CA6C /* arkBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkBookTests.swift; sourceTree = "<group>"; };
+		631ACF16285C6BD30034CA6C /* arkBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arkBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631ACF1A285C6BD30034CA6C /* arkBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkBookUITests.swift; sourceTree = "<group>"; };
+		631ACF1C285C6BD30034CA6C /* arkBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631ACEF0285C6BCF0034CA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631ACF09285C6BD30034CA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631ACF13285C6BD30034CA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631ACEEA285C6BCE0034CA6C = {
+			isa = PBXGroup;
+			children = (
+				631ACEF5285C6BCF0034CA6C /* arkBook */,
+				631ACF0F285C6BD30034CA6C /* arkBookTests */,
+				631ACF19285C6BD30034CA6C /* arkBookUITests */,
+				631ACEF4285C6BCF0034CA6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631ACEF4285C6BCF0034CA6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631ACEF3285C6BCF0034CA6C /* arkBook.app */,
+				631ACF0C285C6BD30034CA6C /* arkBookTests.xctest */,
+				631ACF16285C6BD30034CA6C /* arkBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631ACEF5285C6BCF0034CA6C /* arkBook */ = {
+			isa = PBXGroup;
+			children = (
+				631ACEF6285C6BCF0034CA6C /* AppDelegate.swift */,
+				631ACEF8285C6BCF0034CA6C /* SceneDelegate.swift */,
+				631ACEFA285C6BCF0034CA6C /* ViewController.swift */,
+				631ACEFC285C6BCF0034CA6C /* Main.storyboard */,
+				631ACF02285C6BD20034CA6C /* Assets.xcassets */,
+				631ACF04285C6BD20034CA6C /* LaunchScreen.storyboard */,
+				631ACF07285C6BD20034CA6C /* Info.plist */,
+				631ACEFF285C6BCF0034CA6C /* arkBook.xcdatamodeld */,
+			);
+			path = arkBook;
+			sourceTree = "<group>";
+		};
+		631ACF0F285C6BD30034CA6C /* arkBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				631ACF10285C6BD30034CA6C /* arkBookTests.swift */,
+			);
+			path = arkBookTests;
+			sourceTree = "<group>";
+		};
+		631ACF19285C6BD30034CA6C /* arkBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				631ACF1A285C6BD30034CA6C /* arkBookUITests.swift */,
+				631ACF1C285C6BD30034CA6C /* arkBookUITestsLaunchTests.swift */,
+			);
+			path = arkBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		631ACEF2285C6BCF0034CA6C /* arkBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631ACF20285C6BD30034CA6C /* Build configuration list for PBXNativeTarget "arkBook" */;
+			buildPhases = (
+				631ACEEF285C6BCF0034CA6C /* Sources */,
+				631ACEF0285C6BCF0034CA6C /* Frameworks */,
+				631ACEF1285C6BCF0034CA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arkBook;
+			productName = arkBook;
+			productReference = 631ACEF3285C6BCF0034CA6C /* arkBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		631ACF0B285C6BD30034CA6C /* arkBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631ACF23285C6BD30034CA6C /* Build configuration list for PBXNativeTarget "arkBookTests" */;
+			buildPhases = (
+				631ACF08285C6BD30034CA6C /* Sources */,
+				631ACF09285C6BD30034CA6C /* Frameworks */,
+				631ACF0A285C6BD30034CA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631ACF0E285C6BD30034CA6C /* PBXTargetDependency */,
+			);
+			name = arkBookTests;
+			productName = arkBookTests;
+			productReference = 631ACF0C285C6BD30034CA6C /* arkBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		631ACF15285C6BD30034CA6C /* arkBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631ACF26285C6BD30034CA6C /* Build configuration list for PBXNativeTarget "arkBookUITests" */;
+			buildPhases = (
+				631ACF12285C6BD30034CA6C /* Sources */,
+				631ACF13285C6BD30034CA6C /* Frameworks */,
+				631ACF14285C6BD30034CA6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631ACF18285C6BD30034CA6C /* PBXTargetDependency */,
+			);
+			name = arkBookUITests;
+			productName = arkBookUITests;
+			productReference = 631ACF16285C6BD30034CA6C /* arkBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631ACEEB285C6BCE0034CA6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					631ACEF2285C6BCF0034CA6C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					631ACF0B285C6BD30034CA6C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 631ACEF2285C6BCF0034CA6C;
+					};
+					631ACF15285C6BD30034CA6C = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 631ACEF2285C6BCF0034CA6C;
+					};
+				};
+			};
+			buildConfigurationList = 631ACEEE285C6BCE0034CA6C /* Build configuration list for PBXProject "arkBook" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631ACEEA285C6BCE0034CA6C;
+			productRefGroup = 631ACEF4285C6BCF0034CA6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631ACEF2285C6BCF0034CA6C /* arkBook */,
+				631ACF0B285C6BD30034CA6C /* arkBookTests */,
+				631ACF15285C6BD30034CA6C /* arkBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631ACEF1285C6BCF0034CA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631ACF06285C6BD20034CA6C /* LaunchScreen.storyboard in Resources */,
+				631ACF03285C6BD20034CA6C /* Assets.xcassets in Resources */,
+				631ACEFE285C6BCF0034CA6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631ACF0A285C6BD30034CA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631ACF14285C6BD30034CA6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631ACEEF285C6BCF0034CA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631ACEFB285C6BCF0034CA6C /* ViewController.swift in Sources */,
+				631ACF01285C6BCF0034CA6C /* arkBook.xcdatamodeld in Sources */,
+				631ACEF7285C6BCF0034CA6C /* AppDelegate.swift in Sources */,
+				631ACEF9285C6BCF0034CA6C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631ACF08285C6BD30034CA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631ACF11285C6BD30034CA6C /* arkBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631ACF12285C6BD30034CA6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631ACF1D285C6BD30034CA6C /* arkBookUITestsLaunchTests.swift in Sources */,
+				631ACF1B285C6BD30034CA6C /* arkBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		631ACF0E285C6BD30034CA6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631ACEF2285C6BCF0034CA6C /* arkBook */;
+			targetProxy = 631ACF0D285C6BD30034CA6C /* PBXContainerItemProxy */;
+		};
+		631ACF18285C6BD30034CA6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631ACEF2285C6BCF0034CA6C /* arkBook */;
+			targetProxy = 631ACF17285C6BD30034CA6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		631ACEFC285C6BCF0034CA6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631ACEFD285C6BCF0034CA6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		631ACF04285C6BD20034CA6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631ACF05285C6BD20034CA6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		631ACF1E285C6BD30034CA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		631ACF1F285C6BD30034CA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		631ACF21285C6BD30034CA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = arkBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dogukan.dogan.arkBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		631ACF22285C6BD30034CA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = arkBook/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dogukan.dogan.arkBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		631ACF24285C6BD30034CA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dogukan.dogan.arkBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arkBook.app/arkBook";
+			};
+			name = Debug;
+		};
+		631ACF25285C6BD30034CA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dogukan.dogan.arkBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/arkBook.app/arkBook";
+			};
+			name = Release;
+		};
+		631ACF27285C6BD30034CA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dogukan.dogan.arkBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = arkBook;
+			};
+			name = Debug;
+		};
+		631ACF28285C6BD30034CA6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HZS53T8UPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dogukan.dogan.arkBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = arkBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631ACEEE285C6BCE0034CA6C /* Build configuration list for PBXProject "arkBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631ACF1E285C6BD30034CA6C /* Debug */,
+				631ACF1F285C6BD30034CA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631ACF20285C6BD30034CA6C /* Build configuration list for PBXNativeTarget "arkBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631ACF21285C6BD30034CA6C /* Debug */,
+				631ACF22285C6BD30034CA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631ACF23285C6BD30034CA6C /* Build configuration list for PBXNativeTarget "arkBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631ACF24285C6BD30034CA6C /* Debug */,
+				631ACF25285C6BD30034CA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631ACF26285C6BD30034CA6C /* Build configuration list for PBXNativeTarget "arkBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631ACF27285C6BD30034CA6C /* Debug */,
+				631ACF28285C6BD30034CA6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		631ACEFF285C6BCF0034CA6C /* arkBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				631ACF00285C6BCF0034CA6C /* arkBook.xcdatamodel */,
+			);
+			currentVersion = 631ACF00285C6BCF0034CA6C /* arkBook.xcdatamodel */;
+			path = arkBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 631ACEEB285C6BCE0034CA6C /* Project object */;
+}
