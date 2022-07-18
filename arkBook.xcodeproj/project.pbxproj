@@ -17,6 +17,7 @@
 		631ACF11285C6BD30034CA6C /* arkBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631ACF10285C6BD30034CA6C /* arkBookTests.swift */; };
 		631ACF1B285C6BD30034CA6C /* arkBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631ACF1A285C6BD30034CA6C /* arkBookUITests.swift */; };
 		631ACF1D285C6BD30034CA6C /* arkBookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631ACF1C285C6BD30034CA6C /* arkBookUITestsLaunchTests.swift */; };
+		631ACF2A285C6DF90034CA6C /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631ACF29285C6DF90034CA6C /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		631ACF16285C6BD30034CA6C /* arkBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = arkBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		631ACF1A285C6BD30034CA6C /* arkBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkBookUITests.swift; sourceTree = "<group>"; };
 		631ACF1C285C6BD30034CA6C /* arkBookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arkBookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		631ACF29285C6DF90034CA6C /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				631ACEF6285C6BCF0034CA6C /* AppDelegate.swift */,
 				631ACEF8285C6BCF0034CA6C /* SceneDelegate.swift */,
 				631ACEFA285C6BCF0034CA6C /* ViewController.swift */,
+				631ACF29285C6DF90034CA6C /* secondViewController.swift */,
 				631ACEFC285C6BCF0034CA6C /* Main.storyboard */,
 				631ACF02285C6BD20034CA6C /* Assets.xcassets */,
 				631ACF04285C6BD20034CA6C /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				631ACEFB285C6BCF0034CA6C /* ViewController.swift in Sources */,
 				631ACF01285C6BCF0034CA6C /* arkBook.xcdatamodeld in Sources */,
 				631ACEF7285C6BCF0034CA6C /* AppDelegate.swift in Sources */,
+				631ACF2A285C6DF90034CA6C /* secondViewController.swift in Sources */,
 				631ACEF9285C6BCF0034CA6C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
